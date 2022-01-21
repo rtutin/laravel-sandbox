@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "IBM_Plex_Mono";
+  src : url("../fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
+}
+
+body {
+  font-family: "IBM_Plex_Mono";
+  background: #000;
+}
+
+h1 {
+  text-align: left;
+  color: #fff;
+  font-size: 64px;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-top: 50px;
+  letter-spacing: -0.09em;
+}
+
+h2 {
+  text-align: left;
+  color: #fff;
+  font-size: 27px;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-top: 50px;
+  letter-spacing: -0.09em;
+}
+
+p {
+  color: #fff;
+  margin-top: 115px;
+}
+
+img {
+  max-height: 50vh;
+}
+
+.download {
+  display: block;
+  width: 823px;
+  text-decoration: none;
+  padding: 17% 0;
+  border-radius: 81px;
+  color: #000;
+  font-size: 42px;
+  text-transform: uppercase;
+  letter-spacing: -0.09em;
+  left: 493px;
+  margin-top: 110px;
+  top: 540px;
+  background: #FF9900;
+}
+
+.download:hover {
+  color: #000;
+}
+
+.container-fluid .col {
+  text-align: center;
+}
+
+.container-fluid .col:first-child {
+  padding: 0;
+}
+
+.container-fluid .col:last-child {
+  padding: 0;
+}

@@ -15,7 +15,8 @@ use App\Http\Controllers\PostController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  $labels = ['Крипта сына <br> маминой подруги', 'биткоен <br> уровня б', 'вложи последние <br> деньги', '(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧	'];
+  return view('welcome', ['label' => $labels[array_rand($labels)]]);
 });
 
 Route::resource('posts', PostController::class);
