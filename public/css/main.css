@@ -30,14 +30,16 @@ h2 {
 }
 
 p {
-  position: absolute;
   color: #fff;
-  bottom: 20px;
-  left: calc(50% - (163px / 2));
+  margin-top: 23px;
 }
 
 img {
-  max-height: 50vh;
+  max-width: 447px;
+}
+
+.logos a:first-child, .logos a:last-child {
+  display: none;
 }
 
 .download {
@@ -64,7 +66,8 @@ img {
 }
 
 .content {
-  min-width: 50%;
+  flex: 2 0 0%;
+  padding: 0;
 }
 
 .content .logos {
@@ -74,4 +77,13 @@ img {
 
 .container-fluid .col:first-child, .container-fluid .col:last-child {
   padding: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .girls {
+    display: none;
+    }
+  .download {
+    padding: 40% 0;
+  }
 }

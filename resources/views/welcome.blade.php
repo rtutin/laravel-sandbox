@@ -24,8 +24,8 @@
 <div class="container-fluid">
   <div class="row align-items-start">
     <div class="col">
-      <img src="/imgs/image5.png">
-      <img src="/imgs/image5.png">
+      <img class="girls" src="/imgs/image5.png">
+      <img class="girls" src="/imgs/image5.png">
     </div>
     <div class="col content">
       <div class="logos">
@@ -41,8 +41,8 @@
       <p>absurd_tech, 2022</p>
     </div>
     <div class="col">
-      <img src="/imgs/image5.png">
-      <img src="/imgs/image5.png">
+      <img class="girls" src="/imgs/image5.png">
+      <img class="girls" src="/imgs/image5.png">
     </div>
   </div>
 </div>
