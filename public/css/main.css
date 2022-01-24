@@ -11,8 +11,9 @@ body {
 h1 {
   text-align: left;
   color: #fff;
-  font-size: 64px;
-  line-height: 1em;
+  font-size: 107px;
+  font-size: 116px;
+  line-height: 118.5%;
   text-transform: uppercase;
   margin-top: 50px;
   letter-spacing: -0.09em;
@@ -21,16 +22,18 @@ h1 {
 h2 {
   text-align: left;
   color: #fff;
-  font-size: 27px;
-  line-height: 1em;
+  font-size: 42px;
+  line-height: 118.5%;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 12px;
   letter-spacing: -0.09em;
 }
 
 p {
+  position: absolute;
   color: #fff;
-  margin-top: 115px;
+  bottom: 20px;
+  left: calc(50% - (163px / 2));
 }
 
 img {
@@ -39,7 +42,6 @@ img {
 
 .download {
   display: block;
-  width: 823px;
   text-decoration: none;
   padding: 17% 0;
   border-radius: 81px;
@@ -48,7 +50,7 @@ img {
   text-transform: uppercase;
   letter-spacing: -0.09em;
   left: 493px;
-  margin-top: 110px;
+  margin-top: 26px;
   top: 540px;
   background: #FF9900;
 }
@@ -61,10 +63,15 @@ img {
   text-align: center;
 }
 
-.container-fluid .col:first-child {
-  padding: 0;
+.content {
+  min-width: 50%;
 }
 
-.container-fluid .col:last-child {
+.content .logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-fluid .col:first-child, .container-fluid .col:last-child {
   padding: 0;
 }

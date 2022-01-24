@@ -27,12 +27,18 @@
       <img src="/imgs/image5.png">
       <img src="/imgs/image5.png">
     </div>
-    <div class="col">
-      <a href="/"><img class="mt-5" src="/imgs/logo.png"></a>
+    <div class="col content">
+      <div class="logos">
+        <a href="/"><img class="mt-5" src="/imgs/logo.png"></a>
+        <a href="/"><img class="mt-5" src="/imgs/logo.png"></a>
+        <a href="/"><img class="mt-5" src="/imgs/logo.png"></a>
+        <a href="/"><img class="mt-5" src="/imgs/logo.png"></a>
+        <a href="/"><img class="mt-5" src="/imgs/logo.png"></a>
+      </div>
       <h1>{!! $label !!}</h1>
       <h2>NO PREMINE NO ICO NO AIRDROP</h2>
       <a href="/" class="download">скачать</a>
-      <p>2chcoin, absurdtech, 2022</p>
+      <p>absurd_tech, 2022</p>
     </div>
     <div class="col">
       <img src="/imgs/image5.png">
